@@ -246,10 +246,6 @@ PRODUCT_PACKAGES += \
     QSSurround \
     QSThin
 
-# QS UI Style
-PRODUCT_PACKAGES += \
-    A11QSUI
-    
 # Brightness slider styles
 PRODUCT_PACKAGES += \
     BrightnessSliderFilledOverlay \
@@ -333,3 +329,7 @@ PRODUCT_PACKAGES += \
     VolumeOutline \
     VolumeShadedLayer \
     VolumeAOSPRevamped
+
+# RoundQS
+PRODUCT_PACKAGES += \
+    RoundQSOverlay
