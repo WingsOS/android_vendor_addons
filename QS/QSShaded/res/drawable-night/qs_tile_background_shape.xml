@@ -28,10 +28,7 @@
         <layer-list>
             <item>
                 <shape android:tintMode="multiply">
-                    <gradient
-                        android:angle="0.0"
-                        android:endColor="?android:colorSecondary"
-                        android:startColor="?android:colorPrimary" />
+                    <solid android:color="@*android:color/system_accent1_400" />
                     <corners android:radius="@dimen/qs_corner_radius" />
                 </shape>
             </item>

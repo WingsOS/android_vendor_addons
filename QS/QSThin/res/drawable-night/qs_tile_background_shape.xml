@@ -27,10 +27,7 @@
         <layer-list>
             <item>
                 <shape android:tintMode="multiply">
-                    <gradient
-                        android:angle="315.0"
-                        android:startColor="?android:colorSecondary"
-                        android:endColor="?android:colorPrimary" />
+                    <solid android:color="@*android:color/system_accent1_400" />
                     <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
                 </shape>
             </item>
