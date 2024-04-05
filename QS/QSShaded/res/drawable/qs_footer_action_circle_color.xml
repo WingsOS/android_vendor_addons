@@ -11,7 +11,10 @@
         <item>
             <shape android:tintMode="src_atop">
                 <corners android:radius="@dimen/qs_corner_radius" />
-                <solid android:color="@*android:color/system_accent1_600" />
+                <gradient
+                    android:angle="0.0"
+                    android:endColor="@*android:color/system_accent1_400"
+                    android:startColor="@*android:color/system_accent1_400" />
             </shape>
         </item>
         <item
