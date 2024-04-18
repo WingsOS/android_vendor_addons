@@ -101,146 +101,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/pro
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/product/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
-    
-# Lockscreen clock fonts
-PRODUCT_PACKAGES += \
-    ClockFontGoogleSansOverlay \
-    ClockFontNothingDotOverlay \
-    ClockFontAdventProOverlay \
-    ClockFontBigNoodleTiltingOverlay \
-    ClockFontCherrySwashOverlay \
-    ClockFontHeadlineOverlay \
-    ClockFontRoadRageOverlay \
-    ClockFontSnowstormOverlay \
-    ClockFontViburOverlay \
-    ClockFontAlienLeagueOverlay \
-    ClockFontBikoOverlay \
-    ClockFontGinoraSansOverlay \
-    ClockFontRivieraOverlay \
-    ClockFontUnionOverlay \
-    ClockFontVG5000Overlay \
-    ClockFont3DIsometricBlackOverlay \
-    ClockFont3DIsometricBoldOverlay \
-    ClockFontBalticBoddenOverlay \
-    ClockFontBalticCoastOverlay \
-    ClockFontBalticDuneOverlay \
-    ClockFontBalticStormOverlay \
-    ClockFontCafe24DecoshadowOverlay \
-    ClockFontFortaOverlay \
-    ClockFontMuseoModernoOverlay \
-    ClockFontMXWasgardOverlay \
-    ClockFontNeptunCATOverlay \
-    ClockFontProdeltCoOverlay \
-    ClockFontRubikGlitchOverlay \
-    ClockFontTourneyMediumOverlay \
-    ClockFontVG5000Overlay \
-    ClockFontOdibeeSansOverlay \
-    ClockFontPermanentMarkerOverlay \
-    ClockFontArcadeInterlacedOverlay \
-    ClockFontDotComOverlay \
-    ClockFontKarmaticArcadeOverlay \
-    ClockFontLiquidCrystalOverlay \
-    ClockFontV5PRFOverlay \
-    ClockFontZeroFourOverlay \
-    ClockFontSedgwickAveOverlay \
-    ClockFontUnionOverlay \
-    ClockFontAccuratistOverlay \
-    ClockFontAclonicaOverlay \
-    ClockFontAmaranteOverlay \
-    ClockFontBariolOverlay \
-    ClockFontCagliostroOverlay \
-    ClockFontCoconOverlay \
-    ClockFontComfortaaOverlay \
-    ClockFontComicSansOverlay \
-    ClockFontCoolstoryOverlay \
-    ClockFontExotwoOverlay \
-    ClockFontFifa2018Overlay \
-    ClockFontGrandHotelOverlay \
-    ClockFontHarmonySansOverlay \
-    ClockFontLatoOverlay \
-    ClockFontLGSmartGothicOverlay \
-    ClockFontLinotteOverlay \
-    ClockFontNokiaPureOverlay \
-    ClockFontNunitoOverlay \
-    ClockFontOneplusSansOverlay \
-    ClockFontOneplusSlateOverlay \
-    ClockFontOswaldOverlay \
-    ClockFontQuandoOverlay \
-    ClockFontRedressedOverlay \
-    ClockFontReemKufiOverlay \
-    ClockFontRobotoCondensedOverlay \
-    ClockFontRosemaryOverlay \
-    ClockFontRubikOverlay \
-    ClockFontSamsungOneOverlay \
-    ClockFontSonySketchOverlay \
-    ClockFontStoropiaOverlay \
-    ClockFontSurferOverlay \
-    ClockFontUbuntuOverlay \
-    ClockFontxtrusionOverlay \
-    ClockFontNeonDiscoOverlay \
-    ClockFontlovenessthreeOverlay \
-    ClockFontAlphaCloudsOverlay \
-    ClockFontAlphaFlowersOverlay \
-    ClockFontAlphaWoodOverlay \
-    ClockFontBigCheeseOverlay \
-    ClockFontBudmoJigglerOverlay \
-    ClockFontBunnyRabbitsOverlay \
-    ClockFontCFBadNewsOverlay \
-    ClockFontCFOneTwoTreesOverlay \
-    ClockFontCRACKMANOverlay \
-    ClockFontELRIOTT2Overlay \
-    ClockFontEasterBunnyOverlay \
-    ClockFontFibographyOverlay \
-    ClockFontHangedOverlay \
-    ClockFontHotSweatOverlay \
-    ClockFontKGOnlyHopeOverlay \
-    ClockFontKaramuruhOverlay \
-    ClockFontKingthingsOverlay \
-    ClockFontKlyukinOverlay \
-    ClockFontLMSCliffordOverlay \
-    ClockFontLittleBunnyOverlay \
-    ClockFontMessingLetternOverlay \
-    ClockFontneon2Overlay \
-    ClockFontPinewoodOverlay \
-    ClockFontPlaidEventOverlay \
-    ClockFontPlantsLettersOverlay \
-    ClockFontQuickSouthOverlay \
-    ClockFontREMPONKOverlay \
-    ClockFontRomantiquesOverlay \
-    ClockFontScrapItUpOverlay \
-    ClockFontSpaceGameOverlay \
-    ClockFontTH3MACHINEOverlay \
-    ClockFontVTKSDURA3dOverlay \
-    ClockFontZnikomitNo24Overlay \
-    ClockFontACFilmstripOverlay \
-    ClockFontAmpad3D2Overlay \
-    ClockFontBetsyFlanaganOverlay \
-    ClockFontCatOverlay \
-    ClockFontConcentrateOverlay \
-    ClockFontDiscoMidnightOverlay \
-    ClockFontGautsMotelUpperRightOverlay \
-    ClockFontNINJASOverlay \
-    ClockFontStandardHeaderOverlay \
-    ClockFontfrankfrtOverlay \
-    ClockFontmunsteriaOverlay \
-    ClockFontAlmonteSnowOverlay \
-    ClockFontBrandayolqOverlay \
-    ClockFontEditPointsOverlay \
-    ClockFontEditPointsFilledOverlay \
-    ClockFontFloorlightOverlay \
-    ClockFontFuturrOverlay \
-    ClockFontLowerAtmosphereOverlay \
-    ClockFontMonbijouxClownpieceOverlay \
-    ClockFontRoundheadsOverlay \
-    ClockFontNewYork-HeavyOverlay \
-    ClockFontNewYork-SemiboldOverlay \
-    ClockFontSFPro-SemiboldOverlay \
-    ClockFontSFPro-SemiboldRailsOverlay \
-    ClockFontSFPro-SemiboldRoundedOverlay \
-    ClockFontSFPro-SemiboldSoftOverlay \
-    ClockFontSFPro-SemiboldStencilOverlay \
-    ClockFontKroppenOutlineOverlay \
-    ClockFontKroppenRoundOverlay
 
 # Icon Packs
 PRODUCT_PACKAGES += \
@@ -306,23 +166,15 @@ PRODUCT_PACKAGES += \
 
 # Icon shapes
 PRODUCT_PACKAGES += \
-    IconShapeFlowerOverlay \
-    IconShapeHeartOverlay \
-    IconShapeHexagonOverlay \
-    IconShapeCloudyOverlay \
-    IconShapeCylindricalOverlay \
     IconShapeRiceBallsOverlay \
     IconShapeStretchedOverlay \
     IconShapePebbleOverlay \
     IconShapeRoundedRectOverlay \
+    IconShapeSquareOverlay \
     IconShapeSquircleOverlay \
-    IconShapeTaperedRectOverlay \
     IconShapeTeardropOverlay \
-    IconShapeVesselOverlay \
     IconShapeRoundedHexagonOverlay \
-    IconShapeScrollOverlay \
     IconShapeIosOverlay \
-    IconShapeRohieMeowOverlay \
     IconShapeLeafyOverlay
 
 # Navbar styles
@@ -340,65 +192,21 @@ PRODUCT_PACKAGES += \
 
 # Statusbar Icons
 PRODUCT_PACKAGES += \
-        AquariumSignalOverlay \
         BarsSignalOverlay \
-        ButterflySignalOverlay \
-        BananaSignalOverlay \
-        CircleSignalOverlay \
-        DaunSignalOverlay \
-        DecSignalOverlay \
-        DeepSignalOverlay \
-        DottedSignalOverlay \
-        EqualSignalOverlay \
-        FanSignalOverlay \
-        HuaweiSignalOverlay \
-        HeartbeatSignalOverlay \
-        InsideSignalOverlay \
         IosSignalOverlay \
-        MiniSignalOverlay \
-        OdinSignalOverlay \
-        PillsSignalOverlay \
-        RelSignalOverlay \
-        RomanSignalOverlay \
-        RoundSignalOverlay \
-        ScrollSignalOverlay \
         SeaSignalOverlay \
         SneakySignalOverlay \
-        StackSignalOverlay \
         StrokeSignalOverlay \
-        WannuiSignalOverlay \
         WavySignalOverlay \
-        WindowsSignalOverlay \
-        WingSignalOverlay \
         XperiaSignalOverlay \
-        ZigZagSignalOverlay \
-        AiirOSignalOverlay \
     	AuroraSignalOverlay \
-    	BoldSignalOverlay \
-    	CapsuleSignalOverlay \
-    	FaintUISignalOverlay \
     	ForlornSignalOverlay \
-    	GlummySignalOverlay \
     	GradiconSignalOverlay \
     	HollowSignalOverlay \
     	IOSSignalOverlay \
-    	JapaneseSignalOverlay \
-    	KoalaSignalOverlay \
-    	LinealSignalOverlay \
     	LinearSignalOverlay \
     	PlumpySignalOverlay \
-    	RouterSignalOverlay \
-    	HeartbeatSignalOverlay \
-    	ScaleSignalOverlay \
-    	SpiralSignalOverlay \
-    	TowerSignalOverlay \
-    	WaffleSignalOverlay \
     	LineDotSignalOverlay \
-    	NumberSignalOverlay \
-    	WindySignalOverlay \
-    	MicroWaveSignalOverlay \
-        SharpSignalOverlay \
-        NinjaSignalOverlay \
         NothingDotSignalOverlay \
         SleekSignalOverlay
 
@@ -414,43 +222,18 @@ endif
 
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
-    BarsWiFiOverlay \
-    InsideWiFiOverlay \
     RoundWiFiOverlay \
-    SneakyWiFiOverlay \
     StrokeWiFiOverlay \
     WavyWiFiOverlay \
-    WeedWiFiOverlay \
     XperiaWiFiOverlay \
-    ZigZagWiFiOverlay \
-    AiirOWiFiOverlay \
-    AuroraWiFiOverlay \
-    BoldWiFiOverlay \
-    CapsuleWiFiOverlay \
-    FaintUIWiFiOverlay \
-    ForlornWiFiOverlay \
     GlummyWiFiOverlay \
     GradiconWiFiOverlay \
     HollowWiFiOverlay \
     IosWiFiOverlay \
-    JapaneseWiFiOverlay \
-    KoalaWiFiOverlay \
-    LinealWiFiOverlay \
-    LinearWiFiOverlay \
     PlumpyWiFiOverlay \
-    RouterWiFiOverlay \
-    ScaleWiFiOverlay \
-    SpiralWiFiOverlay \
-    TowerWiFiOverlay \
-    WaffleWiFiOverlay \
-    LineDotWiFiOverlay \
-    NumberWiFiOverlay \
-    WindyWiFiOverlay \
     LandscapeWiFiOverlay \
-    MicroWaveWiFiOverlay \
-    SharpWiFiOverlay \
     NothingDotWiFiOverlay
-    
+
 # QS Panel
 PRODUCT_PACKAGES += \
     QSOutline \
