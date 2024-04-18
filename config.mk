@@ -96,7 +96,7 @@ PRODUCT_PACKAGES += \
     FontPiqueOverlay
 
 # Copy fonts
-LOCAL_PATH := packages/overlays/Themes
+LOCAL_PATH := vendor/addons
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
 
 PRODUCT_COPY_FILES += \
