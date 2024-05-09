@@ -248,23 +248,19 @@ PRODUCT_PACKAGES += \
 
 # Brightness slider styles
 PRODUCT_PACKAGES += \
-    BrightnessSliderFilledOverlay \
-    BrightnessSliderThinOverlay \
+    BrightnessSliderAcunOverlay \
+    BrightnessSliderBangOverlay \
     BrightnessSliderCyberpunkOverlay \
-    BrightnessSliderGradiantOverlay \
-    BrightnessSliderNeumorphOverlay \
-    BrightnessSliderOutlineOverlay \
-    BrightnessSliderShadedOverlay \
-    BrightnessSliderThinOutlineOverlay \
-    BrightnessSliderTranslucentOverlay \
+    BrightnessSliderFilledOverlay \
+    BrightnessSliderGradientRoundedBarOverlay \
     BrightnessSliderLeafyOutlineOverlay \
     BrightnessSliderMinimalThumbOverlay \
-    BrightnessSliderOldSchoolThumbOverlay \
+    BrightnessSliderOutlineOverlay \
     BrightnessSliderRoundedClipOverlay \
-    BrightnessSliderThumbSliderOverlay \
-    BrightnessSliderLineOverlay \
-    BrightnessSliderLightyOverlay
-    
+    BrightnessSliderShadedOverlay \
+    BrightnessSliderThinOverlay \
+    BrightnessSliderTranslucentOverlay
+
 # Data icons
 PRODUCT_PACKAGES += \
     AuroraDataOverlay \
